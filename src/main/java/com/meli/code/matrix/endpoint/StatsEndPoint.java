@@ -26,7 +26,6 @@ public class StatsEndPoint {
 		try {
 			return ResponseEntity.ok(business.getStats().toString());
 		} catch (Exception e) {
-			e.printStackTrace();
 			logger.error("Error on stats [{}][{}]", e.getMessage(), e.getCause());
 			return ResponseEntity.status(500).build();
 		}

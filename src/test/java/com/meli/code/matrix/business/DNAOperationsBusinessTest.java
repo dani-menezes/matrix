@@ -20,24 +20,6 @@ public class DNAOperationsBusinessTest {
 	@Autowired
 	private DNAOperationsBusiness operation;
 	
-
-	/**
-	 * 01
-	 * 02
-	 * 03
-	 * 04
-	 * 05
-	 * 07
-	 * 08
-04
-03 - [3,7]
-08 - [4,3]
-03 - [5,4]
-03 - [6,4]
-07 - [7,0]
-
-	 */
-	
 	@Test
 	public void test_checkXup_ok() throws Exception {
 		DNASample sample = new DNASampleBuilder().getSimian_s02().get();

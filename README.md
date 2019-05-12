@@ -4,12 +4,12 @@
 
 ![alt Sonar](images/Algorithm.png)
 
-Para a solução do problema, foi desenvolvimento um método que analisa todos os elementos da Matriz, checando se seu visinhos são o mesma letra do DNA.
+Para a solução do problema, foi desenvolvimento um método que analisa todos os elementos da Matriz, checando se seus vizinhos são o mesma letra do DNA.
 As possibilidades são: 
 
-- itens de uma mesma linha
-- itens de uma mesma coluna
-- itens na diagonal
+- itens de uma mesma linha;
+- itens de uma mesma coluna;
+- itens na diagonal;
 
 Dessa maneira a matriz é percorrida somente uma vez, já eliminando os elementos que não possuem um número de 4 vizinhos.
 
